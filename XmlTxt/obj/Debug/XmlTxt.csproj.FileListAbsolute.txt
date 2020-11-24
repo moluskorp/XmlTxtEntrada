@@ -1,0 +1,9 @@
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\bin\Debug\XmlTxt.exe.config
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\bin\Debug\XmlTxt.exe
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\bin\Debug\XmlTxt.pdb
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\obj\Debug\XmlTxt.csprojAssemblyReference.cache
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\obj\Debug\XmlTxt.Form1.resources
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\obj\Debug\XmlTxt.Properties.Resources.resources
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\obj\Debug\XmlTxt.csproj.GenerateResource.cache
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\obj\Debug\XmlTxt.exe
+C:\Users\Molusko\source\repos\XmlTxt\XmlTxt\obj\Debug\XmlTxt.pdb
