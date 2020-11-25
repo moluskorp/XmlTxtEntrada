@@ -24,13 +24,33 @@ namespace XmlTxt
             DirectoryInfo directory = new DirectoryInfo(path);
             foreach (FileInfo file in directory.GetFiles())
             {
-                if(file.Extension.ToUpper() == ".XML")
+                if (file.Extension.ToUpper() == ".XML")
                 {
-
+                    string content = getStream(file.FullName);
+                    TNfeProc tNfe = TNfeProc.GetNfeProc(content);
+                    
                     continue;
+
                 }
+
+
                 file.Delete();
+            }
+
+
+        }
+
+        string getStream(string path)
+        {
+            using(StreamReader sr = new StreamReader(path))
+            {
+                return sr.ReadToEnd();
             }
         }
     }
+
 }
+
+
+    
+
