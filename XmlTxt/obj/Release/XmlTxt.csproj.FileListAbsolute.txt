@@ -1,0 +1,9 @@
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\bin\Release\XmlTxt.exe.config
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\bin\Release\XmlTxt.exe
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\bin\Release\XmlTxt.pdb
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\obj\Release\XmlTxt.csprojAssemblyReference.cache
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\obj\Release\XmlTxt.Form1.resources
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\obj\Release\XmlTxt.Properties.Resources.resources
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\obj\Release\XmlTxt.csproj.GenerateResource.cache
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\obj\Release\XmlTxt.exe
+C:\Users\molus\source\repos\XmlTxt\XmlTxt\obj\Release\XmlTxt.pdb
