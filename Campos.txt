@@ -1,0 +1,95 @@
+Linha A = ide
+A|cUF|cNF|natOp|mod|serie|nNf|dhEmi|dhSaiEnt|tpNF|idDest|cMunFG|tpImp|tpEmis|cDV|tpAmb|finNFe|indFinal|indPres|procEmi|verProc
+
+
+Linha B = emit
+B|CNPJ|xNome|xFant|IE|CRT
+
+Linha B.A = enderEmit
+B.A|xLgr|nro|xCpl|xBairro|cMun|xMun|UF|CEP|cPais|xPais|fone
+
+
+
+Linha C = dest
+C|CNPJ|xNome|indIEDest|IE|email
+
+Linha C.A = enderDest
+C.A|xLgr|nro|xCpl|xBairro|cMun|xMun|UF|CEP|cPais|xPais|fone
+
+Linha D = det
+D|nItem|
+
+Linha D.A = prod
+D.A|cProd|cEAN|xProd|NCM|CFOP|uCom|qCom|vUnCom|vProd|cEANTrib|uTrib|qTrib|vUnTrib|indTot
+
+
+ICMS00|CST|modBC|orig|pFCP|pICMS|vBC|vFCP|vICMS
+
+ICMS10|CST|modBC|modBCST|orig|pFCP|pFCPST|pICMS|pICMSST|pMVAST|pRedBCST|vBC|vBCFCP|vBCFCPST|vBCST|vFCP|vFCPST|vICMS|vICMSST
+
+ICMS20|CST|modBC|motDesICMS|orig|pFCP|pICMS|pRedBC|vBC|vBCFCP|vFCP|vICMS|vICMSDeson
+
+ICMS30|CST|modBCST|motDesICMS|orig|pFCPST|pICMSST|pMVAST|pRedBCST|vBCFCPST|vBCST|vFCPST|vICMSDeson|vICMSST
+
+ICMS40|CST|orig|vICMSDeson|motDesICMS
+
+ICMS51|CST|modBC|modBCSpecified|orig|pDif|pFCP|pICMS|pRedBC|vBC|vBCFCP|vFCP|vICMS|vICMSDif|vICMSOp
+
+ICMS60|CST|orig|pFCPSTRet|pICMSEfet|pRedBCEfet|pST|vBCEfet|vBCFCPSTRet|vBCSTRet|vFCPSTRet|vICMSEfet|vICMSSTRet|vICMSSubstituto
+
+ICMS70|CST|modBC|modBCST|motDesICMS|orig|pFCP|pFCPST|pICMS|pICMSST|pMVAST|pRedBC|pRedBCST|vBC|vBCFCP|vBCFCPST|vBCST|vFCP|vFCPST|vICMS|vICMSDeson|vICMSST
+
+ICMS90|CST|modBC|modBCST|motDesICMS|orig|pFCP|pFCPST|pICMS|pICMSST|pMVAST|pRedBC|pRedBCST|vBC|vBCFCP|vBCFCPST|vBCST|vFCP|vFCPST|vICMS|vICMSDeson|vICMSST
+
+ICMSPART|CST|modBC|modBCST|orig|pBCOp|pICMS|pICMSST|pMVAST|pRedBC|pRedBCST|UFST|vBC|vBCST|vICMS|vICMSST
+
+ICMSSN101|CSOSN|orig|pCredSN|vCredICMSSN
+
+ICMSSN102|CSOSN|orig
+
+ICMSSN201|CSOSN|modBCST|orig|pCredSN|pFCPST|pICMSST|pMVAST|pRedBCST|vBCFCPST|vBCST|vCredICMSSN|vFCPST|vICMSST
+
+ICMSSN202|CSOSN|modBCST|orig|pFCPST|pICMSST|pMVAST|pRedBCST|vBCFCPST|vBCST|vFCPST|vICMSST
+
+ICMSSN500|CSOSN|orig|pFCPSTRet|pICMSEfet|pRedBCEfet|pST|vBCEfet|vBCFCPSTRet|vBCSTRet|vFCPSTRet|vICMSEfet|vICMSSTRet|vICMSSubstituto
+
+ICMSSN900|CSOSN|modBC|modBCST|orig|pCredSN|pFCPST|pICMS|pICMSST|pMVAST|pRedBC|pRedBCST|vBC|vBCFCPST|vBCST|vCredICMSSN|vFCPST|vICMS|vICMSST
+
+ICMSST|CST|orig|pFCPSTRet|pICMSEfet|pRedBCEfet|pST|vBCEfet|vBCFCPSTRet|vBCSTDest|vBCSTRet|vFCPSTRet|vICMSEfet|vICMSSTDest|vICMSSTRet|vICMSSubstituto
+
+
+Linha ICMSDest = ICMSUFDest
+ICMSDest|pFCPUFDest|pICMSInter|pICMSInterPart|pICMSUFDest|vBCFCPUFDest|vBCUFDest|vFCPUFDest|vICMSUFDest|vICMSUFRemet
+
+COFINSAl|CST|pCOFINS|vBC|vCOFINS
+
+COFINSOu|CST|vCOFINS
+
+COFINSQt|CST|qBCProd|vAliqProd|vCOFINS
+
+COFINSST|vCOFINS
+
+
+
+PISAl|CST|pPIS|vBC|vPIS
+
+PISNT|CST
+
+PISOu|CST|vPIS
+
+PISQt|CST|qBCProd|vAliqProd|vPIS
+
+PISST|vPIS
+
+vTotTrib|vTotTrib
+
+
+Linha E = total
+E|vBC|vICMS|vICMSDeson|vFCP|vBCST|vST|vFCPST|vFCPSTRet|vProd|vFrete|vSeg|vDesc|vII|vIPI|vIPIDevol|vPIS|vCOFINS|vOutro|vNF|vTotTrib
+
+
+Linha F = transp
+F|modFrete
+
+Linha F.A = transporta
+F.A|IE|Item|UF|xEnder|xMun|xNome
