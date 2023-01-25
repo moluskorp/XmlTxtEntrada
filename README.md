@@ -25,4 +25,6 @@ Este projeto é uma aplicação de Windows Form que lê arquivos XML de uma past
 
 - Certifique-se de que as pastas selecionadas contenham arquivos XML válidos antes de clicar no botão "Gerar"
 - Certifique-se de que as pastas de backup e do arquivo de texto tenham permissão de escrita antes de iniciar o - processo.
+- Consulte o arquivo campos.txt que contém o layout de saída
 - O projeto foi desenvolvido e testado com o .NET Framework 4.8, certifique-se de que sua versão do Visual Studio e do Framework estejam atualizadas.
+
